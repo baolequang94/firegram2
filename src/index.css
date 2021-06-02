@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.font-logo {
+  font-family: "Nanum Pen Script", cursive;
+  text-transform: lowercase;
+  /* color: #ffbc42; */
+}
+
+body {
+  background-color: #fafafa;
+}
