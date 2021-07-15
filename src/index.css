@@ -9,11 +9,23 @@
 }
 
 .font-logo {
-  font-family: "Nanum Pen Script", cursive;
-  text-transform: lowercase;
+  font-family: "Bad Script", cursive;
+  text-transform: capitalize;
+
   /* color: #ffbc42; */
 }
 
 body {
-  background-color: #fafafa;
+  /* background-color: #e0dad5; */
+  /* background-color: #dcd5d1; */
+  /* background: linear-gradient(180deg, #e0dad5, #dcd5d1); */
+}
+
+#test {
+  fill: #ed4956 !important;
+}
+
+.py-50p {
+  padding-top: 50%;
+  padding-bottom: 50%;
 }

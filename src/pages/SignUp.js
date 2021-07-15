@@ -1,15 +1,15 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
-import SignInForm from "../components/Form/SignInForm";
+import SignUpForm from "../components/Form/SignUpForm";
 
-const Login = () => {
+const SignUp = () => {
   useEffect(() => {
-    document.title = `Login • Firegram`;
+    document.title = `Sign up • Firegram`;
   }, []);
   return (
     <div className="bg-dark-500 h-screen w-full">
       <div className="container mx-auto max-w-screen-lg">
-        <Navbar type="SIGN_UP" />
+        <Navbar type={"LOGIN"} />
         <div className="flex flex-col items-center justify-center">
           <div className="text-white mb-8">
             <h2 className="text-center text-6xl font-semibold text-gray-100">
@@ -22,11 +22,11 @@ const Login = () => {
             </p>
           </div>
 
-          <SignInForm />
+          <SignUpForm />
         </div>
       </div>
     </div>
   );
 };
 
-export default Login;
+export default SignUp;
