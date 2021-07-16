@@ -20,6 +20,7 @@ const ImageGrid = () => {
                 comments={comments}
               />
             );
+          return null;
         })}
       </div>
     )
